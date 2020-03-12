@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Fredericka+the+Great&display=swap");
+
+html,
+body,
+.content {
+  height: 100%;
+  min-height: 100%;
+  background-color: #1b262c;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav.navbar {
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-brand {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 40px;
+}
+
+.main {
+  background-image: url(https://img1.goodfon.com/wallpaper/nbig/8/7a/gigabyte-materinskaya-plata.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  min-height: 514px;
+  height: 100%;
+  opacity: 0.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main h1,
+h2 {
+  font-weight: 200;
+  margin: 0.4rem;
+}
+
+.main h1 {
+  color: whitesmoke;
+  font-size: 3rem;
+}
+
+.main h2 {
+  font-size: 25px;
+  color: ghostwhite;
+}
+
+.section {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 2%;
+  color: black;
+}
+.sectionotice {
+  background-color: lightgrey;
+  padding: 5%;
+}
+
+.sectionotice p {
+  margin: 0%;
+}
+
+.encabezadosection {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.encabezadosection h2 {
+  color: #1b262c;
+}
+
+.section img {
+  border-radius: 50%;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.footersection h2 {
+  padding: 2%;
+  margin: 0%;
+  color: aqua;
+}
+
+/* Cursor */
+.txt-type > .txt {
+  border-right: 0.2rem solid #000000;
+}
+
+@media (max-width: 600px) {
+  .content nav a {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .main {
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
