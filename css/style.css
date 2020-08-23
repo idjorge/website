@@ -1,0 +1,220 @@
+@font-face {
+  font-family: "Endzone Sans Light";
+  src: url("//db.onlinewebfonts.com/t/f6f5ccd05cdbdd5e6fe709306142cee0.eot");
+  src: url("//db.onlinewebfonts.com/t/f6f5ccd05cdbdd5e6fe709306142cee0.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/f6f5ccd05cdbdd5e6fe709306142cee0.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/f6f5ccd05cdbdd5e6fe709306142cee0.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/f6f5ccd05cdbdd5e6fe709306142cee0.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/f6f5ccd05cdbdd5e6fe709306142cee0.svg#Endzone Sans Light")
+      format("svg");
+}
+
+/* ----------------- NAVBAR ------------------ */
+
+.navbar-text a,
+.navbar-text2 a,
+.navbar-text3 a {
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.navbar-text .fas {
+  color: deepskyblue;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.navbar-text2 .fas,
+.navbar-text3 .fas {
+  color: black;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.fas {
+  color: #fff;
+}
+
+.navbar {
+  font-size: 13px;
+  font-weight: initial;
+  letter-spacing: 2px;
+}
+
+.navbar a {
+  color: #2b2c2c;
+}
+
+.navbar .nav-link:hover {
+  color: red;
+}
+
+.socialmedia {
+  margin-top: 10px;
+}
+
+/* --------------- FINALIZA NAVBAR ------------ */
+
+.master {
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  height: 100%;
+  min-height: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* --------------- INICIA JUMBOTRON ---------------- */
+
+.jumbotron {
+  background-color: #fff;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  color: #2b2c2c;
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  font-size: 55px;
+}
+.jumbotron p {
+  color: #2b2c2c;
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/* --------------- FINALIZA JUMBOTRON ---------------- */
+.section2 {
+  margin-top: 20px;
+}
+.section2 img {
+  border-radius: 50%;
+}
+
+.encabezadosection h2 {
+  text-align: center;
+  margin-bottom: 5%;
+  color: #1b262c;
+}
+
+.card-title {
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: #2b2c2c;
+}
+
+/* --------------- FINALIZA PRODUCTOS ---------------- */
+
+/* --------------- INICIA SECTION ---------------- */
+
+.clients {
+  color: #2b2c2c;
+  text-align: center;
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+}
+
+.clients .card {
+  border-style: hidden;
+}
+
+.clients .card img {
+  width: 150px;
+  margin: auto;
+}
+
+.clients .card-title {
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+}
+
+.clients .card-text {
+  text-align: left;
+  font-size: 12px;
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+}
+
+/* --------------- FINALIZA SECTION ---------------- */
+.us {
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+
+.alert2 {
+  background-color: #4b5320;
+  padding: 0px;
+}
+
+.alert2 .card-body {
+  padding: 0 0 0 10px;
+}
+
+.alert2 .card-text {
+  color: white;
+  padding: 50px 10px 0 10px;
+  font-size: 15px;
+  font-family: "Endzone Sans Light", Arial, Helvetica, sans-serif;
+  text-justify: newspaper;
+}
+
+/* FOOTER */
+
+.footer img {
+  margin: 50px auto;
+}
+
+.footer {
+  min-height: 400px;
+  text-align: center;
+  background-image: url(../img/SierraGris2.jpg);
+  color: white;
+  font-family: "Endzone Sans Medium";
+  font-size: 17px;
+}
+
+.footer p {
+  padding: 70px 0 20px 0;
+}
+
+.footer a {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  font-family: "Endzone Sans Medium";
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/* ------------ INICIA MEDIA QUERYS ---------------- */
+
+@media only screen and (max-width: 544px) {
+  .jumbotron h1 {
+    color: #2b2c2c;
+    font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }
+
+  .clients .card img {
+    width: 100px;
+    margin: auto;
+  }
+
+  .alert img {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    margin: auto;
+  }
+  .rte p {
+    font-size: 15px;
+  }
+}
+
+/* --------------- FINALIZA MEDIA QUERYS ---------------- */
