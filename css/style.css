@@ -1,0 +1,823 @@
+@font-face {
+  font-family: "Endzone Sans Light";
+  src: url("//db.onlinewebfonts.com/t/f6f5ccd05cdbdd5e6fe709306142cee0.eot");
+  src: url("//db.onlinewebfonts.com/t/f6f5ccd05cdbdd5e6fe709306142cee0.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/f6f5ccd05cdbdd5e6fe709306142cee0.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/f6f5ccd05cdbdd5e6fe709306142cee0.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/f6f5ccd05cdbdd5e6fe709306142cee0.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/f6f5ccd05cdbdd5e6fe709306142cee0.svg#Endzone Sans Light")
+      format("svg");
+}
+
+@font-face {
+  font-family: "VeneerRegular";
+  src: url(/fonts/Veneer.ttf);
+}
+
+@font-face {
+  font-family: "VeneerCleanRegular";
+  src: url(/fonts/VeneerClean-Reg.ttf);
+}
+
+@font-face {
+  font-family: "RobotoSlab";
+  src: url(/fonts/RobotoSlabRegular.ttf);
+}
+
+/* ----------------- NAVBAR ------------------ */
+
+.wrapperone {
+  background-color: white;
+  border-bottom: 1px solid #dccab3;
+}
+
+.navbar-text a,
+.navbar-text2 a,
+.navbar-text3 a,
+.navbar-text4 a {
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.navbar-text .fas {
+  color: deepskyblue;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.navbar-text4 .fas {
+  color: black;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.fab {
+  color: #1b262c;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+
+.fab:hover {
+  color: #ff5722;
+}
+
+.navbar {
+  font-size: 13px;
+  font-weight: initial;
+  letter-spacing: 2px;
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar a:hover {
+  color: #ff5722;
+}
+
+.navbar .navbar-nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  border-bottom: 1px solid #f5c002;
+  transition: 0.3s;
+  line-height: 18.5px;
+}
+
+/* --------------- FINALIZA NAVBAR ------------ */
+
+/* --------------- INICIA MASTER ------------ */
+
+.master {
+  min-height: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* --------------- FINALIZA MASTER ---------------- */
+
+/* --------------- INICIA JUMBOTRON ---------------- */
+
+.jumbotron {
+  text-align: center;
+  border-radius: 0px;
+  margin: 0px;
+  background-color: #158467;
+}
+
+.wrappertwo {
+  max-width: 900px;
+  box-sizing: border-box;
+}
+
+.jumbotron h1 {
+  color: #f5c002;
+  text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.9);
+  font-weight: 400;
+  font-family: "VeneerCleanRegular";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 4px;
+  font-style: normal;
+}
+.jumbotron p {
+  color: white;
+  text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.9);
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.jumbotron .btn {
+  color: #f5c002;
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.jumbotron .btn:hover {
+  color: #1b262c;
+}
+
+/* --------------- FINALIZA JUMBOTRON ---------------- */
+
+/* --------------- INICIA PRODUCTOS ---------------- */
+
+.wrapperthree {
+  background-color: #F0E68C;
+  /*background-image: url(../img/brownpaper.jpg);*/
+}
+
+.encabezadosection h2 {
+  color: #c2112f;
+  text-align: center;
+  font-family: "VeneerCleanRegular";
+  letter-spacing: 1px;
+  text-decoration-style: wavy;
+  font-size: 60px;
+  margin: 0px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.9);
+  letter-spacing: 0.3px;
+  padding: 50px 0 50px 0;
+}
+
+.section1 {
+  max-width: 1800px;
+  box-sizing: border-box;
+}
+
+.section1 .card-title {
+  font-family: "VeneerCleanRegular";
+  text-align: center;
+  font-size: 60px;
+  color: #000D48;
+  text-shadow: -3px 1px 1px rgba(203, 200, 199, 1);
+  font-weight: bold;
+  line-height: 1.2;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.section1 .card-body p {
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  color: #000D48;
+  text-shadow: -2px 1px 1px rgba(203, 200, 199, 1);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.section1 .buttonresume {
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #403f42;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+}
+.section1 .buttonresume:hover {
+  background-color: #a07713;
+  color: white;
+}
+
+.section2 {
+  max-width: 1800px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.section2 img {
+  border-radius: 50%;
+}
+
+.section2 .card-title {
+  color: #000D48;
+  text-shadow: -3px 1px 1px rgba(203, 200, 199, 1);
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.section2 .card-text {
+  color: #000D48;
+  text-shadow: -2px 1px 1px rgba(203, 200, 199, 1);
+  text-align: left;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: normal;
+}
+/* --------------- FINALIZA PRODUCTOS ---------------- */
+
+/* --------------- INICIA NUESTROS CLIENTES ---------------- */
+
+.clients {
+  max-width: 1800px;
+  box-sizing: border-box;
+  color: #2b2c2c;
+  text-align: center;
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.clients .card {
+  border-style: hidden;
+}
+
+.clients .card img {
+  width: 150px;
+  margin: auto;
+}
+
+.clients .card-title {
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+}
+
+.clients .card-text {
+  text-align: left;
+  font-size: 14px;
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+}
+
+/* --------------- FINALIZA NUESTROS CLIENTES ---------------- */
+
+/* --------------- INICIA NUESTRO METODO ---------------- */
+
+.shopify-section {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.shopify-section h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "VeneerRegular";
+  font-size: 40px;
+}
+
+.shopify-section .alert-heading {
+  font-family: "VeneerRegular";
+  font-size: 30px;
+}
+
+.shopify-section p {
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* ------------ FINALIZA NUESTRO METODO ---------------- */
+
+/* ------------ INICIA RESUMEN ACERCA DE NOSOTROS ---------------- */
+
+.sectionresume {
+  max-width: 1800px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sectionresume .card-body {
+  background-color: #d81f2a;
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.sectionresume .card-title {
+  text-align: center;
+  font-family: "VeneerRegular";
+  font-size: 30px;
+}
+
+.sectionresume .card-text {
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.buttonresume {
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+.separatoruno {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  clear: both;
+  border-style: dashed;
+  border-width: 1px;
+  border-color: white;
+  width: 70%;
+  height: auto;
+}
+
+/* ------------ FINALIZA RESUMEN ACERCA DE NOSOTROS ---------------- */
+
+/* ------------ EMPIEZA FOOTER ---------------- */
+
+footer {
+  width: 100%;
+  background-color: #3c6d6e;
+  color: white;
+}
+
+.container-footer-all {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+}
+
+.container-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.colum1 {
+  max-width: 400px;
+}
+
+.colum1 h1 {
+  font-family: "VeneerRegular";
+  font-size: 30px;
+  text-transform: uppercase;
+  text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.9);
+}
+
+.colum1 p {
+  font-size: 14px;
+  color: #c7c7c7;
+  margin-top: 20px;
+}
+
+.colum2 {
+  max-width: 400px;
+}
+
+.colum2 h1 {
+  font-family: "VeneerRegular";
+  font-size: 30px;
+  text-transform: uppercase;
+  text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.9);
+}
+
+.column2 .row {
+  margin-top: 20px;
+  display: flex;
+}
+
+.colum2 .fab {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.colum2 .fab:hover {
+  color: #ff5722;
+}
+
+.row1 label {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #c7c7c7;
+}
+
+.colum3 {
+  max-width: 400px;
+}
+
+.colum3 h1 {
+  font-family: "VeneerRegular";
+  font-size: 30px;
+  text-transform: uppercase;
+  text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.9);
+}
+
+.row2 {
+  margin-top: 20px;
+  display: flex;
+}
+
+.row2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.row2 img {
+  width: 30px;
+  height: 30px;
+}
+
+.row2 label {
+  margin-top: 10px;
+  margin-left: 20px;
+  max-width: 140px;
+}
+
+.colum3 .row2 a:hover{
+  color: #ff5722;;
+}
+
+.container-footer {
+  width: 100%;
+  background: #7ab380;
+}
+
+.footer {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.copyright {
+  color: #c7c7c7;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.information a {
+  text-decoration: none;
+  color: #c7c7c7;
+}
+
+@media screen and (max-width: 1100px) {
+  .container-body {
+    flex-wrap: wrap;
+  }
+
+  .colum1 {
+    max-width: 100%;
+  }
+
+  .colum2,
+  .colum3 {
+    margin-top: 40px;
+  }
+}
+
+/* ------------ FINALIZA FOOTER ---------------- */
+
+/* --=====================================
+INICIA NUESTRA HISTORIA
+======================================--*/
+
+/* ------------ INICIA RESUMEN ---------------- */
+
+.mission,
+.ourmission {
+  text-align: center;
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #6b301a;
+  font-weight: 500;
+  line-height: 1.65;
+}
+
+.gettoknowmissionone {
+font-family: "VeneerCleanRegular";
+color: #c2112f;
+text-align: center;
+letter-spacing: 1px;
+text-decoration-style: wavy;
+font-size: 60px;
+margin: 0px;
+font-style: normal;
+font-weight: 500;
+text-transform: uppercase;
+box-sizing: border-box;
+text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.9);
+}
+
+/* ------------ FINALIZA RESUMEN ---------------- */
+
+/* ------------ INICIA NOSOTROS PORTADA ---------------- */
+
+.portadaus {
+  padding: 0px;
+  margin-bottom: 30px;
+}
+
+.gettoknowmission {
+  color: #c2112f;
+  text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.9);
+  background-color: #95969A;
+  text-align: center;
+  font-family: "VeneerRegular";
+  letter-spacing: 1px;
+  text-decoration-style: wavy;
+  font-size: 40px;
+  margin: 0px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+.antepasados p{
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #483628;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 0 10px 0;
+}
+
+
+/* ------------ FINALIZA NOSOTROS PORTADA ---------------- */
+
+/* ------------ INICIAN ALERTA NOSOTROS ---------------- */
+
+.alert1 {
+  max-width: 1800px;
+  box-sizing: border-box;
+  background-color: rgb(75, 13, 13);
+  padding: 0px;
+}
+
+.alert1 .card-text {
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+.alert2 {
+  max-width: 1800px;
+  box-sizing: border-box;
+  background-color: #4b5320;
+  padding: 0px;
+}
+
+.alert2 .card-text {
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+.alert3 .alert-heading,
+.alert2 .alert-heading,
+.alert1 .alert-heading {
+  font-family: "VeneerRegular";
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
+
+.alert3 .card-text {
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+.alert3 {
+  max-width: 1800px;
+  box-sizing: border-box;
+  background-color: #cfb53b;
+  padding: 0px;
+}
+
+/* ------------ FINALIZA ALERTA NOSOTROS ---------------- */
+
+/* --=====================================
+FINALIZA NUESTRA HISTORIA
+======================================--*/
+
+/* --=====================================
+INICIA ALIMENTOS CON PROPOSITO
+======================================--*/
+
+.descriptionpurpose p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  color: #6b301a;
+  font-weight: 500;
+}
+
+.fila {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  /*border:1px solid black;*/
+}
+
+#seccion4 article h2 {
+  font-size: 15px;
+  margin: 20px;
+}
+
+#seccion4 article p img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#seccion4 article p {
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  color: #6b301a;
+  font-weight: 500;
+  margin: 5px 20px;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  text-align: justify;
+}
+
+.whatgrain p {
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6b301a;
+}
+
+.whatgrain ul {
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6b301a;
+}
+
+.descriptionrefinedgrain p{
+  font-family: "Endzone Sans Medium", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6b301a;
+
+}
+
+/*=============================================
+PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc
+=============================================*/
+
+@media (min-width: 1200px) {
+  #seccion4 article p img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .col-md-12 {
+    width: 100%;
+  }
+  #seccion4 article p img {
+    width: 60%;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .col-sm-12 {
+    width: 100%;
+  }
+  #seccion4 article p img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-xs-12 {
+    width: 100%;
+  }
+  #seccion4 article p img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* --=====================================
+FINALIZA ALIMENTOS CON PROPOSITO
+======================================--*/
+
+/* ------------ INICIA MEDIA QUERYS ---------------- */
+
+@media only screen and (max-width: 544px) {
+  .jumbotron h1 {
+    color: #f5c002;
+    font-family: "VeneerRegular";
+    font-size: 45px;
+  }
+
+  .clients .card img {
+    width: 100px;
+    margin: auto;
+  }
+
+  .alert img {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    margin: auto;
+  }
+  .rte p {
+    font-size: 15px;
+  }
+
+  .portadaus .gettoknow {
+    font-size: 20px;
+  }
+
+  .section1 img {
+    height: 400px;
+  }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+  .colum3 .row2 {
+    padding-right: 70px;
+  }
+
+  .section1 img {
+    height: 400px;
+  }
+
+  .section1 .card-title {
+    font-size: 40px;
+  }
+
+  .gettoknowmissionone {
+    font-size: 35px;
+  }
+
+  .portadaus .gettoknowmission {
+    font-size: 30px;
+  }
+
+  .portadamission .gettoknowmission {
+    font-size: 25px;
+  }
+
+  .grainpurpose h2 {
+    font-size: 30px;
+    color: #158467;
+  }
+
+  .encabezadosection h2 {
+    font-size: 30px;
+  }
+ 
+}
+
+
+
+/* ------------ FINALIZAN MEDIA QUERYS ---------------- */
