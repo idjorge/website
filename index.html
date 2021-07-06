@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>La Congre | Paseo del Valle</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+  
+  <nav>
+    <div class="wrapper">
+      <div class="logo"><a href="index.html">LA CONGRE</a></div>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+        <li><a href="index.html">INICIO</a></li>
+        
+        <li>
+          <a href="reuniones.html" class="desktop-item">REUNIONES</a>
+          <input type="checkbox">
+          <label class="mobile-item"> <a href="reuniones.html">REUNIONES</a> </label>
+        </li>
+
+        <li>
+          <a href="programas.html" class="desktop-item">PROGRAMAS</a>
+          <input type="checkbox">
+          <label class="mobile-item"> <a href="programas.html">PROGRAMAS</a> </label>
+        </li>
+
+        <li>
+          <a href="#" class="desktop-item">PREDICACION</a>
+          <input type="checkbox">
+          <label class="mobile-item"> <a href="#">PREDICACION</a> </label>
+        </li>  
+
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+
+
+
+ <!--===== toast =====-->
+
+ <div class="alert">
+  <span class="icon"><i class="fa fa-superpowers"></i></span>
+      <div class="text">
+          <strong>ASAMBLEA <br>REGIONAL 2021</strong>
+                  <p>DOMINGO 04 JULIO</p>
+                  <p>DOMINGO 11 JULIO</p>
+                  <p>DOMINGO 25 JULIO</p>
+                  <p>DOMINGO 01 AGOSTO</p>
+                  <p>DOMINGO 15 AGOSTO</p>
+                  <p>DOMINGO 22 AGOSTO</p>
+      </div>
+  <button class="close"><i class="fa fa-close"></i>
+  </button>
+</div>
+<!-- home section start -->
+
+<section class="home" id="home">
+  <div class="max-width">
+      <div class="home-content">
+          <div class="text-1">BIENVENIDO A</div>
+          <div class="text-2">PASEO DEL VALLE</div>
+      </div>
+  </div>
+</section>
+
+  <!--===== GSAP =====-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+  <!--===== MAIN JS =====-->
+  <script src="js/main.js"></script>
+  <script src="js/toast.js"></script>
+ 
+
+</body>
+</html>
