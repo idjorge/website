@@ -1,0 +1,299 @@
+/* ------------------------- */
+/* Estilos Generales */
+/* ------------------------- */
+
+* {
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+}
+
+body { 
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+.texto-naranja {
+  font-weight: 300;
+  color: orange;
+}
+
+.texto-blanco {
+  font-weight: 300;
+  color: #fff;
+}
+
+.texto-negro {
+color: #000;
+}
+
+/* ------------------------- */
+/* Clases de Fullpage.js */
+/* ------------------------- */
+#fp-nav ul li a span {
+  background: orange;
+}
+
+#fp-nav ul li .fp-tooltip {
+  color: orange;
+}
+
+/* ------------------------- */
+/* Menu de Navegacion */
+/* ------------------------- */
+.nav {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 70;
+  width: 100%;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.fas {
+  letter-spacing: 5px;
+}
+
+.nav li,
+.nav a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 19px;
+  color: #c2c2c2;
+  transition: .5s ease;
+}
+
+.nav li.active {
+  border-bottom: 2px solid orange;
+}
+
+.menu li a {
+  transition: .5s ease;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li.active a,
+.menu li:hover a {
+  color: orange;
+}
+
+
+/* ------------------------- */
+/* Reuniones Asambleas */
+/* ------------------------- */
+
+.asambleas { 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.asambleas:nth-child(1){
+  background-image: url('../media/8K-HD-Background-Wallpaper-7680x4320-084-scaled.jpg'); 
+}
+
+.asambleas:nth-child(2){
+  background-image: url('../media/backgroundcontent.jpg'); 
+}
+
+.circuitassambly{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  color: #fff;
+  margin-right: 30px;
+  line-height: 1.1;
+  font-weight: 500;
+  text-shadow: -1px 1px 1px rgb(0 0 0 / 90%);
+}
+
+.circuitassambly h1{
+  font-size: 80px;
+  text-align: right;
+}
+
+.circuitassambly p {
+  text-align: right;
+  font-size: 25px;
+}
+
+.circuitassambly h2 {
+  text-align: right;
+  font-size: 38px;
+}
+
+/* REGIONAL */
+
+.regionalconvention{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 1.1;
+  color: #39444a;
+  background-image: url(../img/back_yellow.png);
+  border-radius: 50%;
+  max-width: 600px;
+  max-height: 600px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+}
+
+.regionalconvention h1{
+  font-size: 40px;
+}
+
+.tablestyle {
+  margin: 10px 0px;
+  font-size: 25px;
+}
+
+.regionalconvention .tablestyle td{
+  padding: 3px;
+}
+
+.regionalconvention .tablestyle th:nth-child(1){
+  width: 150px;
+  text-align: right;
+ 
+}
+
+.regionalconvention .tablestyle td:nth-child(1){
+  text-align: right;
+}
+
+
+.regionalconvention .tablestyle th:nth-child(2){
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.regionalconvention .tablestyle td:nth-child(2){
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.regionalconvention .tablestyle th:nth-child(3){
+  width: 200px;
+  text-align: left;
+}
+
+
+.tablestyle a{
+  text-decoration: none;
+  color: #29b6f6;
+} 
+
+
+/* ------------------------- */
+/* Clases de fullpage.js - Flechas de Slide */
+/* ------------------------- */
+.fp-controlArrow.fp-next,
+.fp-controlArrow.fp-prev {
+  top: 95%;
+}
+
+.fp-controlArrow.fp-prev {
+  left: 80%;
+  border-width: 20px 20px 20px 0;
+  border-color: transparent #fff transparent transparent;
+}
+
+.fp-controlArrow.fp-next {
+  right: 50px;
+  border-width: 20px 0 20px 20px;
+  border-color: transparent transparent transparent #fff;
+}
+
+
+
+/* ------------------------- */
+/* Mediaqueries */
+/* ------------------------- */
+@media screen and (max-width: 768px) {
+  .menu li a,
+  .menu li.active a {
+      font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+   .fp-controlArrow.fp-next {
+      left: 100px;
+  }
+
+  .fp-controlArrow.fp-prev {
+      left: 25px;
+  }
+
+  .nav a {
+      font-size: 14px;
+      margin-bottom: 19px;
+  }
+  .menu li a,
+  .menu li.active a {
+      font-size: 14px;
+  }
+
+  .regionalconvention{
+    max-width: 330px;
+    max-height: 330px;
+  }
+
+  .regionalconvention h1{
+    font-size: 18px;
+  }
+  .circuitassambly h1{
+    font-size: 40px;
+  }
+  .regionalconvention table{
+    font-size: 13px;
+  }
+  .circuitassambly p{
+    font-size: 19px;
+  }
+  .circuitassambly h2{
+    font-size: 30px;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .nav a {
+      font-size: 10px;
+  }
+
+  .menu li a,
+  .menu li.active a {
+      font-size: 10px;
+  }
+
+  .tablestyle {
+    margin: 10px 0px;
+    font-size: 15px;
+  }
+
+  .text .tablestyle th:nth-child(1){
+    width: 80px;
+  }
+
+.text .tablestyle th:nth-child(2){
+    width: 60px;
+  }    
+.text .tablestyle th:nth-child(4){
+    width: 70px;
+  }
+
+}
