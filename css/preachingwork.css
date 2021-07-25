@@ -1,0 +1,335 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body { 
+    font-family: 'Lato', sans-serif;
+    background-color: #c2c2c2;
+}
+
+.preachingnav {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 70;
+    width: 100%;
+    margin: 0;
+    padding: 10px 10px;
+}
+
+.fas {
+    letter-spacing: 5px;
+  }
+
+.preachingnav li,
+.preachingnav a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    color: #000;
+    transition: .5s ease;
+}
+
+.preachingnav li.active {
+    border-bottom: 2px solid orange;
+}
+
+.menu li a {
+    transition: .5s ease;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li.active a,
+.menu li:hover a {
+    color: orange;
+}
+
+/* PREDICACION */
+
+.preachingschedule{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+.preachingschedule h1{
+    margin-bottom: 20px;
+    color: #c2112f;
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.preachingtable{
+    color: #000;
+    font-size: 30px;
+}
+
+
+.preachingschedule .preachingtable th:nth-child(1){
+    width: 200px;
+}
+
+.preachingschedule .preachingtable th:nth-child(2){
+    width: 200px;
+}
+
+.preachingschedule .preachingtable th:nth-child(3){
+    width: 200px;
+}
+
+.preachingschedule .preachingtable th:nth-child(4){
+    width: 300px;
+}
+
+.preachingschedule .preachingtable th, td{
+    border-style: double; 
+    text-align: center;
+}
+
+.preachingtable a{
+    text-decoration: none;
+    color: #29b6f6;
+}
+
+
+
+
+/* ------------ INICIA TERRITORIO ---------------- */
+
+.territory{
+    margin-top: 60px;
+    padding: 0%;
+}
+
+.titleterritory{
+    margin-bottom: 20px;
+    color: #c2112f;
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+.descriptionterritory {
+  font-size: 18 px;
+  color: #6b301a;
+  font-weight: 500;
+}
+
+/* * ============================== */
+
+.subtituloterritory{
+    margin: 60px auto;
+    color: #c2112f;
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.descriptionterritory{
+    display: flex;
+    justify-content: center;
+}
+
+.mapaterritory .descriptionterritory th:nth-child(1){
+    width: 100px;
+}
+
+.mapaterritory .descriptionterritory th:nth-child(2){
+    width: 200px;
+}
+
+.mapaterritory .descriptionterritory th:nth-child(3){
+    width: 200px;
+}
+
+.mapaterritory .descriptionterritory th, td{
+    border-style: double; 
+    text-align: center;
+}
+
+  /* ------------------------- */
+/* GRID */
+/* ------------------------- */
+
+/* * ============================== */
+
+.ourservices {
+    max-width: 1520px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+  .ourservices h4 {
+    color: #000;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.4;
+    text-transform: uppercase;
+  }
+  
+  .ourservices p {
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-justify: auto;
+  }
+
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 20px 5px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.galeria .galeriagrupos {
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.galeria .galeriagrupos button:focus{
+    outline: unset;
+}
+
+.gallery__img {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    transition: all .3s ease-in-out;
+}
+
+.gallery__img:hover{
+    transform: scale(1.2);
+    transform-origin: center center;
+}
+
+.subtitulo{
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+}
+
+.modal-body{
+    padding-left: 40px;
+}
+
+/* ------------------------- */
+/* Mediaqueries */
+/* ------------------------- */
+@media screen and (max-width: 768px) {
+    .menu li a,
+    .menu li.active a {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .menu li a,
+    .menu li.active a {
+        font-size: 14px;
+    }
+
+    .preachingtable{
+        font-size: 15px;
+    }
+
+    .preachingschedule h1{
+        font-size: 20px;
+    }
+
+    .preachingschedule .preachingtable tr:nth-child(1){
+        width: 100px;
+    }
+    
+    .preachingschedule .preachingtable tr:nth-child(2){
+        width: 150px;
+    }
+    
+    .preachingschedule .preachingtable tr:nth-child(3){
+        width: 100px;
+    }
+    
+    .preachingschedule .preachingtable tr:nth-child(4){
+        width: 300px;
+    }
+
+    .galeria {
+        grid-template-columns: repeat(2, auto);
+        width: calc(90% - 20px);
+    }
+    .gallery__img {
+        display: block;
+        height: 70px;
+    }
+
+    .titleterritory {
+        font-size: 20px;
+      }
+
+      .subtituloterritory{
+        font-size: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+    .menu li a,
+    .menu li.active a {
+        font-size: 10px;
+    }
+
+    .galeria {
+        grid-template-columns: repeat(2, auto);
+        width: calc(90% - 20px);
+    }
+    .gallery__img {
+        display: block;
+        height: 70px;
+    }
+    .modal-body li{
+        font-size: 12px;
+    }
+
+    .modal-body{
+        padding-left: 30px;
+    }
+
+}
