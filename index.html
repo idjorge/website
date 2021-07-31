@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta http-equiv='cache-control' content='no-cache'>
+	<meta http-equiv='expires' content='0'>
+	<meta http-equiv='pragma' content='no-cache'>
+	<link rel="shortcut icon" type="image/x-icon" href="media/Valleyone.png" />
+	<title>La Congre | Paseo del Valle</title>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald&display=swap" rel="stylesheet">
+
+	<!--INCLUIR LIBRERÍAS SweetAlert y momentJs -->
+	<script src="https://momentjs.com/downloads/moment.js"></script>
+	<script type="text/javascript" src="js/cleaning.js"></script>
+	<script type="text/javascript" src="js/hospitalidad.js"></script>
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+	<nav class="nav">
+		<a href="#" class="marca">LA CONGRE</a>
+	</nav>
+
+	<main id="fullpage">
+		<header class="section header">
+
+			<div class="contenedor-titulo">
+				<h1 class="titulo">
+					<span class="firstname">PASEO -</span>
+					<span class="secondname">DEL VALLE</span>
+				</h1>
+				<p class="texto-blanco">arreglos de la congregacion</p>
+			</div>
+			<div class="contenedor-icono">
+				<p><a href="#gallery"><i class="fas fa-chevron-down"></i></a></p>
+			</div>
+
+			<!-- Video -->
+			<!-- <video loop muted data-autoplay class="bg-video">
+				<source src="media/bg-video.m4v" type="video/mp4">
+			</video> -->
+
+
+			<!--===== toast =====-->
+
+			<div class="alert">
+				<span class="icon"><i class="fas fa-bullhorn"></i></span>
+				<div class="text">
+					<strong>ASAMBLEA REGIONAL 2021</strong>
+					<table class="tablestyle">
+						<tr>
+							<th scope="row">DOMINGO</th>
+							<th>9:30 AM</th>
+							<th>SESION</th>
+						</tr>
+
+						<tr>
+							<td>04 - JUL</td>
+							<td><a
+									href="https://www.jw.org/finder?srcid=share&wtlocale=S&lank=pub-co-r21_1_VIDEO">VER</a>
+							</td>
+							<td>Viernes mañana</td>
+						</tr>
+
+						<tr>
+							<td>11 - JUL</td>
+							<td><a
+									href="https://www.jw.org/finder?srcid=share&wtlocale=S&lank=pub-co-r21_3_VIDEO">VER</a>
+							</td>
+							<td>Viernes tarde</td>
+						</tr>
+
+						<tr>
+							<td>25 - JUL</td>
+							<td><a href="https://www.jw.org/es/biblioteca/videos/#es/mediaitems/2021Convention/pub-co-r21_5_VIDEO">VER</a></td>
+							<td>Sabado mañana</td>
+						</tr>
+
+						<tr>
+							<td>01 - AGO</td>
+							<td><a href="https://www.jw.org/es/biblioteca/videos/#es/mediaitems/2021Convention/pub-co-r21_7_VIDEO">VER</a></td>
+							<td>Sabado tarde</td>
+						</tr>
+
+						<tr>
+							<td>15 - AGO</td>
+							<td><a href="">VER</a></td>
+							<td>Domingo mañana</td>
+						</tr>
+
+						<tr>
+							<td>22 - AGO</td>
+							<td><a href="">VER</a></td>
+							<td>Domingo tarde</td>
+						</tr>
+
+					</table>
+				</div>
+				<button class="close"><i class="fa fa-close"></i>
+				</button>
+			</div>
+
+
+		</header>
+
+
+
+		<section class="section">
+
+
+			<div class="gallery">
+
+				<div class="gallery__item">
+					<a href="meetings.html"><img src="media/weekmeetings.png" alt="Imagen de galería"
+							class="gallery__img"></a>
+					<div class="subtitulo">
+						<p>REUNIONES <br> SEMANALES</p>
+					</div>
+				</div>
+
+				<div class="gallery__item">
+					<a href="lifeandministry.html"><img src="media/vidayministerio.png" alt="Imagen de galería"
+							class="gallery__img"></a>
+					<div class="subtitulo">
+						<p>VIDA Y<br>MINISTERIO </p>
+					</div>
+				</div>
+
+				<div class="gallery__item">
+					<a href="visitcircuitoverseer.html"><img src="media/supers1.png" alt="Imagen de galería"
+							class="gallery__img"></a>
+					<div class="subtitulo">
+						<p>VISITA DE<br> CIRCUITO</p>
+					</div>
+				</div>
+
+				<div class="gallery__item">
+					<a href="memorial.html"><img src="media/memorial3.png" alt="Imagen de galería"
+							class="gallery__img"></a>
+					<div class="subtitulo">
+						<p>CONMEMORACION</p>
+					</div>
+				</div>
+
+				<div class="gallery__item">
+					<a href="convention.html"><img src="media/estadio.png" alt="Imagen de galería"
+							class="gallery__img"></a>
+					<div class="subtitulo">
+						<p>ASAMBLEAS</p>
+					</div>
+				</div>
+
+				<div class="gallery__item">
+					<a href="chairman.html"><img src="media/acomodador1.png" alt="Imagen de galería"
+							class="gallery__img"></a>
+					<div class="subtitulo">
+						<p>ACOMODADOR </p>
+					</div>
+				</div>
+
+				<div class="gallery__item">
+					<button style="background-color: #c2c2c2; border: 0;" onclick="revisarClick()"><img
+							src="media/cleaning1.png" alt="Imagen de galería" class="gallery__img"></button>
+					<div class="subtitulo">
+						<p>ASEO</p>
+					</div>
+				</div>
+
+				<div class="gallery__item">
+					<button style="background-color: #c2c2c2; border: 0;" onclick="hospitalidad()"><img
+							src="media/hospitality.png" alt="Imagen de galería" class="gallery__img"></button>
+					<div class="subtitulo">
+						<p>HOSPITALIDAD</p>
+					</div>
+				</div>
+
+				<div class="gallery__item">
+					<a href="preachingwork.html"><img src="media/preachingwork.png" alt="Imagen de galería"
+							class="gallery__img"></a>
+					<div class="subtitulo">
+						<p>PREDICACION</p>
+					</div>
+				</div>
+
+				<div class="gallery__item">
+					<a href="groups.html"><img src="media/groups.png" alt="Imagen de galería" class="gallery__img"></a>
+					<div class="subtitulo">
+						<p>GRUPOS</p>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+	</main>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/toast.js"></script>
+
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>
