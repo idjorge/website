@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+/* ------------------------- */
+/* Menu de Navegacion */
+/* ------------------------- */
+.nav {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 70;
+  width: 100%;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.fas {
+  letter-spacing: 5px;
+}
+
+.nav li,
+.nav a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 19px;
+  color: #c2c2c2;
+  transition: .5s ease;
+}
+
+.nav li.active {
+  border-bottom: 2px solid orange;
+}
+
+.menu li a {
+  transition: .5s ease;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li.active a,
+.menu li:hover a {
+  color: orange;
+}
+
+/* ------------------------- */
+/* Menu de Navegacion */
+/* ------------------------- */
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  object-fit: scale-down;
+  scroll-behavior: smooth;
+}
+
+.wrapper::-webkit-scrollbar{
+  display: none;
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-snap-align: start;
+  transition: 0.1s ease-in-out;
+}
+
+.section:nth-child(2) {
+  background-color: #333333;
+}
+
+.section:nth-child(3) {
+  background-color: #996666;
+}
+
+
+/* HORARIOS DE PREDICACION */
+
+.preachingschedule h1{
+  color: #c2c2c2;
+  font-size: 40px;
+  text-align: center;
+}
+
+.preachingschedule table{
+  color: #c2c2c2;
+  font-size: 20px;
+}
+
+.preachingschedule .tablestyle th, td{
+  border-style: double; 
+  text-align: center;
+}
+
+
+.text .tablestyle th, td{
+  text-align: left;
+}
+
+.tablestyle {
+  margin: 20px 0px;
+  font-size: 13px;
+}
+
+.tablestyle td{
+  width: 180px;
+  text-align: center;
+}
+
+.tablestyle a{
+  text-decoration: none;
+  color: #29b6f6;
+} 
+
+/* HORARIOS DE PREDICACION */
+
+
+/* MAPA DEL TERRITORIO */
+
+.encabezadosection h2 {
+  color: #c2c2c2;
+  font-size: 40px;
+  text-align: center;
+}
+
+.mapterritory th:nth-child(1){
+  width: 100px;
+  }
+
+.mapterritory th:nth-child(2){
+  width: 200px;
+  }
+
+.mapterritory th:nth-child(3){
+  width: 200px;
+  }
+
+.mapterritory th, td{
+  border-style: double; 
+  text-align: center;
+  }
+
+.mapterritory table{
+  color: #c2c2c2;
+  font-size: 15px;
+}
+
+/* MAPA DEL TERRITORIO */
+
+
+@media screen and (max-width: 576px) {
+ .nav a {
+     font-size: 14px;
+     margin-bottom: 16px;
+ }
+
+ .menu li a,
+ .menu li.active a {
+     font-size: 14px;
+ }
+
+ .preachingschedule h1{
+     font-size: 30px;
+ }
+
+ .tablestyle {
+     margin: 5px 0px;
+ }
+ 
+ .tablestyle td{
+     width: 120px;
+ }
+
+ .preachingschedule table{
+     font-size: 14px;
+ }
+
+.encabezadosection h2 {
+  font-size: 35px;
+}
+
+}
+
+
+@media screen and (max-width: 450px) {
+  .nav a {
+      font-size: 10px;
+  }
+
+  .menu li a,
+  .menu li.active a {
+      font-size: 10px;
+  }
+
+  .preachingschedule h1{
+      font-size: 20px;
+  }
+
+  .tablestyle td{
+      width: 80px;
+  }
+
+  .preachingschedule table{
+      font-size: 16px;
+  }
+
+  .mapterritory table{
+      color: #c2c2c2;
+      font-size: 12px;
+  }
+
+  .encabezadosection h2 {
+      font-size: 20px;
+    }
+
+}

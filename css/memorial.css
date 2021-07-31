@@ -1,0 +1,204 @@
+/* ------------------------- */
+/* Estilos Generales */
+/* ------------------------- */
+
+* {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+
+body { 
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.texto-naranja {
+    font-weight: 300;
+    color: orange;
+}
+
+.texto-blanco {
+    font-weight: 700;
+    color: #fff;
+}
+
+.texto-negro {
+	color: #000;
+}
+
+/* ------------------------- */
+/* Clases de Fullpage.js */
+/* ------------------------- */
+#fp-nav ul li a span {
+    background: orange;
+}
+
+#fp-nav ul li .fp-tooltip {
+    color: orange;
+}
+
+/* ------------------------- */
+/* Menu de Navegacion */
+/* ------------------------- */
+.nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 70;
+    width: 100%;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.nav li,
+.nav a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    color: #c2c2c2;
+    transition: .5s ease;
+}
+
+.nav li.active {
+    border-bottom: 2px solid orange;
+}
+
+.menu li a {
+    transition: .5s ease;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li.active a,
+.menu li:hover a {
+    color: orange;
+}
+
+/* ------------------------- */
+/* Animaciones */
+/* ------------------------- */
+@keyframes bajar-subir {
+    0% { transform: translateY(20px); }
+    25% { transform: translateY(0); }
+    100% { transform: translateY(20px); }
+}
+
+/* ------------------------- */
+/* Productos */
+/* ------------------------- */
+.memorial article { 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.memorial article:nth-child(1) {
+  background-image: url(../img/memorial.jpg);
+}
+
+.memorialinformation{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    color: #efdb74;
+    margin-right: 30px;
+    line-height: 1.1;
+    font-weight: 500;
+    text-shadow: -1px 1px 1px rgb(0 0 0 / 90%);
+  }
+  
+  .memorialinformation h1{
+    font-size: 80px;
+    text-align: right;
+  }
+    
+  .memorialinformation h2 {
+    text-align: right;
+    font-size: 40px;
+  }
+
+/* ------------------------- */
+/* Clases de fullpage.js - Flechas de Slide */
+/* ------------------------- */
+.fp-controlArrow.fp-next,
+.fp-controlArrow.fp-prev {
+    top: 95%;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 80%;
+    border-width: 20px 20px 20px 0;
+    border-color: transparent #000 transparent transparent;
+}
+
+.fp-controlArrow.fp-next {
+    right: 50px;
+    border-width: 20px 0 20px 20px;
+    border-color: transparent transparent transparent #000;
+}
+
+
+/* ------------------------- */
+/* Mediaqueries */
+/* ------------------------- */
+@media screen and (max-width: 768px) {
+    .menu li a,
+    .menu li.active a {
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .fp-controlArrow.fp-next {
+        left: 100px;
+    }
+
+    .fp-controlArrow.fp-prev {
+        left: 25px;
+    }
+
+    .memorialinformation h1{
+        font-size: 45px;
+      }
+        
+      .memorialinformation h2 {
+        font-size: 25px;
+      }
+}
+
+@media screen and (max-width: 450px) {
+
+    .nav a {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu li a,
+    .menu li.active a {
+        font-size: 16px;
+        padding: 5px;
+    }
+    .memorialinformation h1{
+        font-size: 30px;
+      }
+        
+      .memorialinformation h2 {
+        font-size: 25px;
+      }
+}
